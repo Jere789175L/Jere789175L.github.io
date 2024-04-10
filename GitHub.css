@@ -144,6 +144,7 @@ span {
     animation: bgColor 2s infinite linear;
     text-align: center;
     padding: 1rem;
+    
 }
 
 @keyframes bgColor {
@@ -171,4 +172,9 @@ span {
 100% {
   background-color: #FF1493;
 }
+}
+
+.pop__linkbutton:hover{
+    cursor: pointer;
+    transform: scale(97%);
 }
