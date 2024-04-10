@@ -1,3 +1,4 @@
+
 body {
     --color-primary: #000000;
     --color-secondary: #000000;
@@ -88,4 +89,86 @@ span {
     padding: 6px;
     border-radius: 5px;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+.popup {
+    background-image: url(irma.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 600px;
+    height: 350px;
+    padding: 20px 30px;
+    position: absolute;
+    transform: translate(-50% -50%);
+    border-radius: 1rem;
+    right: 1%;
+    bottom: 2%;
+    text-align: center;
+    display: none;   
+    
+}
+*,
+*:before,
+*:after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.popup .sulje{
+    display: block;
+    margin:  0 0 15px auto;
+    background-color: transparent;
+    font-size: 30px;
+    color: #000000;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.pop__title {
+    font-size: 40px;
+    background-color: rgba(187, 187, 187, 0.5);
+    border-radius: 0.3rem;
+    margin-top: 0.1px;
+    color: #000;
+
+}
+
+.pop__linkbutton {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    border-radius: 0.8rem;
+    margin-top: 100px;
+    background-color: #ff0000;
+    animation: bgColor 2s infinite linear;
+    text-align: center;
+    padding: 1rem;
+}
+
+@keyframes bgColor {
+12.5% {
+  background-color: #FF0000;
+}
+25% {
+  background-color: #FFA500;
+}
+37.5% {
+  background-color: #FFFF00;
+}
+50% {
+  background-color: #7FFF00;
+}
+62.5% {
+  background-color: #00FFFF;
+}
+75% {
+  background-color: #003cff;
+}
+87.5% {
+  background-color: #9932CC;
+}
+100% {
+  background-color: #FF1493;
+}
 }
