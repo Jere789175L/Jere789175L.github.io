@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Rocket Launch sequence</title>
+        <link rel="stylesheet" type="text/css" href="rocket.css">
+        <script type="text/javascript" src="rocket.js"></script>
+    </head>
+    <body class="body-state1">
+        <div class="left">
+            <div class="state1">
+                <h1>JS Rocket Launch!</h1>
+                            </div>
+            
+            <div class="state2">
+                <h1>Again?</h1>
+            </div>
+
+            <div class="state3">
+                <h1>Lift Off</h1>
+            </div>
+
+            <div class="state4">
+                <h1>Well done!</h1>
+                <a href="#" class="button" onclick="changeState(1);">Do it again!</a>
+            </div>
+
+            <div class="state5">
+                <h1>Oh No!</h1>
+                <a href="#" class="button" onclick="changeState(1);">Try it again!</a>
+            </div>
+        </div>
+        <div class="right">
+            <div class="ground"></div>
+            <div class="rocket" onclick="changeState(3);"></div>
+        </div>
+    </body>
+</html>
