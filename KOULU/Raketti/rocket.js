@@ -32,7 +32,7 @@ var changeState = function (state) {
                         randomNumber) 
 
                         //succes
-                    if (randomNumber > 0) {
+                    if (randomNumber > 5) {
                         changeState(4);
                     } else {
                         changeState(5); // oh no!
