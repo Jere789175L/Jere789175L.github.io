@@ -1,0 +1,14 @@
+body{
+    overflow-x: hidden;
+}
+#taso1{
+    background-image: url(../menu/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.otsikko {
+    background-color: rgba(0, 0, 0, 0.5);
+    display: inline;
+    color: white;
+}
